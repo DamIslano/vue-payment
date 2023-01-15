@@ -26,7 +26,7 @@
 
       <div class="payment__number">
         <h3 class="payment__title">Card number</h3>
-        <input type="text" class="payment__input" v-model="cardFields.card" maxlength="19">
+        <input type="text" class="payment__input" v-model="cardFields.card" maxlength="16">
       </div>
 
       <div class="payment__card-date">
